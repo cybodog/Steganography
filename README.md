@@ -28,11 +28,16 @@ Traditional encryption methods secure data but make it obvious that encryption i
 ```sh
 git clone https://github.com/cybodog/Steganography.git
 cd Steganography
+```
 ###Install Dependencies
 Make sure you have Python installed (Recommended: Python 3.8+). Then, install the required packages using:
+```sh
 pip install opencv-python numpy matplotlib pillow pycryptodome tkinterdnd2
+```
 ### 3️⃣ Run the Application
+```sh
 python stegno.py
+```
 ## ✨ Wow Factor
 - Combines **encryption (AES)** and **steganography (DCT)** for double-layer security.
 - Hidden data remains visually undetectable.
