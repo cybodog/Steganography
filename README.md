@@ -1,16 +1,38 @@
-# AES-DCT Steganography
+# 🔒 AES-DCT Steganography
 
 ## 📌 Problem Statement
-Traditional encryption methods secure data but make it obvious that encryption is being used. This project implements AES encryption with Discrete Cosine Transform (DCT)-based steganography to hide encrypted data within an image, making it undetectable while ensuring security.
+Traditional encryption methods secure data but make it obvious that encryption is being used. This project implements AES encryption with Discrete Cosine Transform (DCT)-based steganography to **hide encrypted data within an image**, making it undetectable while ensuring security.
 
-## 🛠️ Technology Used
+## 🚀 Features
+✅ **AES Encryption**: Ensures secure message encryption.  
+✅ **DCT-Based Steganography**: Hides encrypted data within image frequency components.  
+✅ **Drag & Drop Support**: Easily select files via GUI.  
+✅ **Lossless Extraction**: Recovers original message without data loss.  
+✅ **GUI-Based Interface**: Simple & interactive user experience using Tkinter.  
+✅ **Optimized Performance**: Efficient encoding & decoding for real-time applications.  
+
+## 🛠️ Technologies Used
 - **Python** (Core programming language)
-- **AES Encryption** (For secure data encryption)
-- **DCT Steganography** (For hiding encrypted data in images)
-- **OpenCV** (For image processing)
-- **NumPy** (For mathematical operations)
-- **Matplotlib** (For visualization)
+- **AES Encryption** (PyCryptodome for encryption & decryption)
+- **DCT Steganography** (Image processing with OpenCV & NumPy)
+- **OpenCV** (Image processing & transformation)
+- **Tkinter & tkinterdnd2** (GUI & drag-and-drop support)
+- **PIL (Pillow)** (Image manipulation)
+- **zlib** (Compression to optimize message embedding)
 
+---
+
+## 📥 Installation
+
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/cybodog/Steganography.git
+cd Steganography
+###Install Dependencies
+Make sure you have Python installed (Recommended: Python 3.8+). Then, install the required packages using:
+pip install opencv-python numpy matplotlib pillow pycryptodome tkinterdnd2
+### 3️⃣ Run the Application
+python stegno.py
 ## ✨ Wow Factor
 - Combines **encryption (AES)** and **steganography (DCT)** for double-layer security.
 - Hidden data remains visually undetectable.
